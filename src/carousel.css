@@ -1,0 +1,21 @@
+.carousel .control-dots .dot {
+  @apply w-5 h-5 bg-black opacity-15 shadow-none rounded-full mx-2;
+}
+
+.carousel .control-dots .dot.selected {
+  @apply bg-zinc-600 scale-110;
+}
+
+.carousel .thumbs {
+  display: none;
+}
+
+/* .carousel .control-next.control-arrow,
+.carousel .control-prev.control-arrow {
+  @apply bg-none mt-[320px] w-[60px] h-[60px] mx-[100px] rounded-full flex items-center justify-center;
+}
+
+.carousel .control-next.control-arrow:hover,
+.carousel .control-prev.control-arrow:hover {
+  @apply bg-zinc-200;
+} */
