@@ -24,15 +24,15 @@ const emailAddress = "rainaaaddo@gmail.com";
             <img className='w-[120px] h-[120px] mt-[120px] rounded-full object-cover' src={snapme} alt='my face' />
           </div>
           <div className='w-[600px]'>
-            <p className='font-bold font-lato text-[45px] text-center text-wrap'>Hey, I'm Naa Shidaa, an aspiring front-end developer.</p>
+            <p className='font-bold text-[45px] text-center text-wrap'>Hey, I'm Naa Shidaa,<br></br> an aspiring front-end developer.</p>
           </div>
           <div className='mt-[20px] text-[22px] mb-[100px] '>
             <p>I enjoy bringing unique designs to life, giving them a story and a voice, and creating them as well. </p>
           </div>
 
-          <div className='flex flex-row static pt-[50px] mr-[1400px] w-[370px] justify-evenly'>
+          <div className='flex flex-row static pt-[50px] w-[420px] justify-evenly'>
             <a href={`mailto:${emailAddress}`} className='mt-[7px]'>
-              <button className='px-[20px] py-[13px] h-[55px] text-[20px] rounded-[38px] bg-rosequartz text-white'>Talk with me</button>
+              <button className='px-[20px] py-[13px] h-[62px] text-[20px] rounded-[38px] bg-rosequartz text-white'>Talk with me</button>
             </a>
             
             <div className='border-white border-[17px] rounded-[200px] '>
@@ -48,8 +48,9 @@ const emailAddress = "rainaaaddo@gmail.com";
           </div>
         </div>
         
-        <section id="projects-section" className="h-screen">
-          <div className="w-[1000px] h-[700px] mx-auto border-2 mt-[120px] rounded-[50px]">
+        <section id="projects-section" className="mb-[20px] h-screen">
+        <p className='font-bold text-[40px] ml-[50px] mt-[80px]'>View some of my projects...</p>
+          <div className="w-[1000px] h-[700px] mx-auto border-2 mt-[20px] rounded-[50px]">
             <Carousel transitionTime={1000} showStatus={false} showIndicators={true} showArrows={true} infiniteLoop className='w-full h-full '>
               <div className='flex justify-center'>
                 <img className='object-cover border-2 w-full h-auto' src={iPhone15Pro} alt="Fashion e-commerce platform" />
@@ -57,7 +58,7 @@ const emailAddress = "rainaaaddo@gmail.com";
                   <p className='text-[30px] font-semibold pt-4'>OpenFashion 2.0</p>
                   <p className='text-[23px]'>Fashion e-commerce platform</p>
                   <a href="https://github.com/RainaaNs/rn-assignment7-11307343" target="_blank" rel="noopener noreferrer">
-                    <div className='bg-white shadow w-[50px] h-[50px] rounded-full absolute ml-[856px] mt-[-50px]'> 
+                    <div className='bg-white w-[50px] shadow shadow-slate-500 h-[50px] rounded-full absolute ml-[856px] mt-[-50px]'> 
                         <img className='w-[35px] h-[50px] p-2' src={upperrightarrow} alt='Link to project'/>
                     </div>
                   </a>
@@ -70,7 +71,7 @@ const emailAddress = "rainaaaddo@gmail.com";
                   <p className='text-[30px] font-semibold pt-[2px]'>Transactedd</p>
                   <p className='text-[23px] text-nowrap'>Transaction management app</p>
                   <a href="https://github.com/RainaaNs/rn-assignment5-11307343" target="_blank" rel="noopener noreferrer">
-                    <div className='bg-white shadow w-[50px] h-[50px] rounded-full absolute ml-[856px] mt-[-50px]'> 
+                    <div className='bg-white shadow shadow-slate-500 w-[50px] h-[50px] rounded-full absolute ml-[856px] mt-[-50px]'> 
                         <img className='w-[35px] h-[50px] p-2' src={upperrightarrow} alt='Link to project'/>
                     </div>
                   </a>
@@ -83,7 +84,7 @@ const emailAddress = "rainaaaddo@gmail.com";
                   <p className='text-[30px] font-semibold pt-[50px]'>Jobizz</p>
                   <p className='text-[23px]'>Job search app</p>
                   <a href="https://github.com/RainaaNs/rn-assignment4-11307343" target="_blank" rel="noopener noreferrer">
-                    <div className='bg-white shadow w-[50px] h-[50px] rounded-full absolute ml-[856px] mt-[-50px]'> 
+                    <div className='bg-white shadow shadow-slate-500 w-[50px] h-[50px] rounded-full absolute ml-[856px] mt-[-80px]'> 
                         <img className='w-[35px] h-[50px] p-2' src={upperrightarrow} alt='Link to project'/>
                     </div>
                   </a>
@@ -96,7 +97,7 @@ const emailAddress = "rainaaaddo@gmail.com";
                   <p className='text-[30px] font-semibold pt-[10px]'>AquaNet</p>
                   <p className='text-[23px]'>Fish e-commerce platform</p>
                   <a href="https://aquanet-frontend.onrender.com/#home" target="_blank" rel="noopener noreferrer">
-                    <div className='bg-white shadow w-[50px] h-[50px] rounded-full absolute ml-[856px] mt-[-50px]'> 
+                    <div className='bg-white shadow shadow-slate-500 w-[50px] h-[50px] rounded-full absolute ml-[856px] mt-[-50px]'> 
                         <img className='w-[35px] h-[50px] p-2' src={upperrightarrow} alt='Link to project'/>
                     </div>
                   </a>
@@ -108,12 +109,12 @@ const emailAddress = "rainaaaddo@gmail.com";
         </section>
 
         <section id="contact-section" >
-          <div className='h-[600px] bg-mintcream rounded-[50px] mx-6 mt-5 mb-[40px] flex flex-col'>
+          <div className='h-[550px] bg-mintcream rounded-[50px] mx-6 mt-5 mb-[40px] flex flex-col'>
             <div className='mt-[50px] ml-[50px]'>
               <p className='font-bold font-lato text-[50px]'>Let's chat<span className='text-red-700'>.</span></p>
               <p className='text-[25px] text-wrap'>Reach out through email or connect with me on social media - I'm just a message away.</p>
 
-              <div className='flex flex-row justify-evenly w-[570px] mt-[252px]'>
+              <div className='flex flex-row justify-evenly w-[470px] mt-[192px]'>
                 <div>
                   <EmailCopyButton/>
                 </div>
