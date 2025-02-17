@@ -128,7 +128,7 @@ const Navbar = () => {
       <div className="sm:hidden flex justify-between items-center pt-4 px-4">
         <div className="flex">
           <div className="bg-lightrosetaupe border w-[30px] h-[30px] rounded-full ml-[10px]"></div>
-          <div className="font-bold text-xl ml-3 text-nowrap">NAA SHIDAA</div>
+          <div className="font-bold text-[15px] items-center flex sm:text-xl ml-3 text-nowrap">NAA SHIDAA</div>
         </div>
 
         {/* Hamburger button */}
@@ -145,7 +145,7 @@ const Navbar = () => {
         </button>
       </div>
 
-      {/* Sidebar (hidden by default on larger screens) */}
+      {/* Sidebar for small screens */}
       <div
         className={`fixed top-0 right-0 w-[250px] h-full bg-white shadow-lg transition-all duration-700 ease-in-out ${sidebarOpen ? 'translate-x-0' : 'translate-x-full'
           }`}

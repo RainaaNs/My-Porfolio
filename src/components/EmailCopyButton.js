@@ -19,9 +19,9 @@ const EmailCopyButton = () => {
 
   return (
     <div className='flex flex-col'>
-        <p className='text-[20px] pt-[17px]'>{email}</p>
+        <p className='text-[17px] sm:text-[20px] pt-[17px]'>{email}</p>
         <button onClick={copyToClipboard} 
-                className={`border px-[20px] py-[7px] text-[20px] mt-[5px] rounded-[38px] bg-white text-black' 
+                className={`border px-[20px] py-[7px] text-[16px] sm:text-[20px] mt-[5px] rounded-[38px] bg-white text-black' 
                 ${isBouncing ? 'animate-bounceTwice' : ''}`}>
             {buttonText}
         </button>
