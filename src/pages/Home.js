@@ -29,7 +29,7 @@ const Home = () => {
             <img className='w-[120px] h-[120px] mt-[90px] sm:mt-[120px] rounded-full object-cover' src={snapme} alt='my face' />
           </div>
           <div className='w-95'>
-            <p className='font-bold xl:text-[45px] md:text-[35px] text-[23px] mt-2 sm:mt-0 text-center text-wrap'>Hey, I'm Naa Shidaa,<br></br> an aspiring front-end developer.</p>
+            <p className='font-bold xl:text-[45px] md:text-[35px] text-[23px] mt-2 sm:mt-0 text-center text-wrap px-[10px] sm:px-0'>Hey, I'm Naa Shidaa,<br></br> an aspiring front-end developer.</p>
           </div>
           <div className='mt-[20px] md:text-[22px] text-[17px] sm:px-0 px-[10px] sm:mb-[100px] text-center'>
             <p>I enjoy bringing unique designs to life, giving them a story and a voice, and creating them as well. </p>
