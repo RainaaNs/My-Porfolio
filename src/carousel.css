@@ -6,6 +6,10 @@
   @apply bg-zinc-600 scale-110;
 }
 
+.carousel .control-dots {
+  bottom: 5px;  /* Adjust the position upwards */
+}
+
 .carousel .thumbs {
   display: none;
 }
