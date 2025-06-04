@@ -35,30 +35,39 @@ const Home = () => {
             <p>I enjoy bringing unique designs to life, giving them a story and a voice, and creating them as well. </p>
           </div>
 
-          <div className='flex sm:w-[420px] w-60 h-50 sm:h-full flex-col sm:flex-row static pt-[40px] sm:pt-[0px] pb-[20px] sm:pb-[0px] sm:justify-evenly'>
-
-            <a href={`mailto:${emailAddress}`} className='sm:mt-[7px] mb-[10px] sm:mb-0 sm:mx-0 mx-auto'>
-              <button className='px-[20px] py-[13px] h-[62px] text-[17px] sm:text-[20px] rounded-[38px] bg-rosequartz text-white'>Talk with me</button>
+         <div className="flex w-full py-5 px-2 sm:px-0 sm:py-0 justify-center items-center">
+          <div className="flex flex-col md:flex-row items-center gap-4">
+            
+            {/* Button */}
+            <a href={`mailto:${emailAddress}`} className="md:mr-4">
+              <button className="px-6 py-2 text-nowrap text-[17px] sm:text-[20px] rounded-full bg-rosequartz text-white">
+                Talk with me
+              </button>
             </a>
-            <div className='border-white border-[17px] mx-auto sm:mx-0 rounded-[200px] '>
-              <a href="https://www.linkedin.com/in/naa-shidaa-addo" target="_blank" rel="noopener noreferrer">
-                <img className='w-8 h-8 sm:w-10 sm:h-10' src={linkedin} alt='Linkedin' />
+            
+            {/* Social Icons */}
+            <div className="flex flex-row gap-4">
+              <a
+                href="https://www.linkedin.com/in/naa-shidaa-addo"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-white p-2 rounded-full flex items-center justify-center shadow"
+              >
+                <img className="w-8 h-8 sm:w-10 sm:h-10" src={linkedin} alt="LinkedIn" />
               </a>
-            </div>
-            <div className="flex flex-row justify-evenly">
-              <div className='border-white border-[17px] rounded-[200px] '>
-                <a href="https://github.com/RainaaNs" target="_blank" rel="noopener noreferrer">
-                  <img className='w-8 h-8 sm:w-10 sm:h-10' src={github} alt='Github' />
-                </a>
-              </div>
-              <div className='border-white border-[17px] rounded-[200px] sm:hidden flex'>
-                <a href="https://github.com/RainaaNs" target="_blank" rel="noopener noreferrer">
-                  <img className='w-8 h-8 sm:w-10 sm:h-10' src={github} alt='Github' />
-                </a>
-              </div>
+              <a
+                href="https://github.com/RainaaNs"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-white p-2 rounded-full flex items-center justify-center shadow"
+              >
+                <img className="w-8 h-8 sm:w-10 sm:h-10" src={github} alt="GitHub" />
+              </a>
             </div>
 
           </div>
+        </div>
+
         </div>
 
         <section id="projects-section" className="mt-[10px] mb-[10px] md:mb-[70px] sm:mb-[40px] h-[90%] w-[100%]">
