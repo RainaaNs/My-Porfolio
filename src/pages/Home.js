@@ -19,7 +19,7 @@ const Home = () => {
   return (
     <div className='font-body'>
       <section id="home-section" className="h-screen">
-        <div className='h-[800px] w-90 bg-lavendar rounded-[50px] mx-[13px] sm:mx-6 mt-[14px] mb-[70px] sm:mb-0 flex justify-center items-center flex-col'>
+        <div className='h-[90vh] md:h-[800px] w-90 bg-lavendar rounded-[50px] mx-[13px] sm:mx-6 mt-[14px] mb-[70px] sm:mb-0 flex justify-center items-center flex-col'>
           <div className='flex flex-row sm:hidden space-x-2'>
             <span className='w-20 h-[10px] rounded-xl bg-white'></span>
             <span className='w-14 h-[10px] rounded-xl bg-white'></span>
@@ -143,12 +143,12 @@ const Home = () => {
         </section>
 
         <section id="contact-section" >
-          <div className='h-[480px] sm:h-[500px] md:h-[550px] bg-mintcream rounded-[50px] mx-[13px] sm:mx-6 mt-5 mb-[40px] flex flex-col'>
+          <div className='h-[55vh] md:h-[550px] bg-mintcream rounded-[50px] mx-[13px] sm:mx-6 mt-5 mb-[40px] flex flex-col'>
             <div className='mt-[50px] mx-[18px] sm:mx-[30px] md:mx-[50px]'>
               <p className='font-bold font-lato text-[30px] sm:text-[43px] md:text-[50px]'>Let's chat<span className='text-red-700'>.</span></p>
               <p className='text-[17px] sm:text-[24px] md:text-[25px] text-wrap leading-7 sm:leading-normal'>Reach out through email or connect with me on social media - I'm just a message away.</p>
 
-              <div className='flex flex-col sm:flex-row gap-4 w-[190px] sm:w-[470px] mt-[80px] sm:mt-[100px] md:mt-[192px]'>
+              <div className='flex flex-col sm:flex-row gap-4 w-[190px] sm:w-[470px] mt-[30px] sm:mt-[100px] md:mt-[192px]'>
                 <div>
                   <EmailCopyButton />
                 </div>
@@ -170,7 +170,7 @@ const Home = () => {
             </div>
           </div>
 
-          <p className='ml-[25px] sm:ml-[40px] md:ml-[50px] text-[15px] sm:text-[20px] mb-[10px]'>© 2024 All rights reserved.</p>
+          <p className='ml-[25px] sm:ml-[40px] md:ml-[50px] text-[15px] sm:text-[20px] mb-[20px]'>© 2024 All rights reserved.</p>
         </section>
       </section>
     </div>
